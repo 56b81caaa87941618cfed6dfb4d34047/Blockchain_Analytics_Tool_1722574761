@@ -4,31 +4,31 @@
 */
 Vue.component("simple_hero_component_1722574764", {
     template: `
-        <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
+        <section id="hero-section" class="bg-gradient-to-br from-pink-400 to-purple-600 flex-1">
             <div id="hero-container" class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-                <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
+                <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-8 shadow-lg">
                     
                     <div id="hero-title-container-text" class="flex">
-                        <h1 id="hero-title" class="flex-1 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Cutting-Edge Blockchain Analytics</h1>
+                        <h1 id="hero-title" class="flex-1 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-white">Cutting-Edge Blockchain Analytics</h1>
                     </div>
 
                     <div id="hero-subtitle-container" class="flex">
-                        <p id="hero-subtitle" class="flex-1 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Gain Valuable Insights from the Latest Blockchain Data</p>
+                        <p id="hero-subtitle" class="flex-1 max-w-2xl mb-6 font-light text-gray-100 lg:mb-8 md:text-lg lg:text-xl">Gain Valuable Insights from the Latest Blockchain Data</p>
                     </div>
 
                     <div id="hero-buttons-container" class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                         <div id="hero-button-1-container" class="flex">
-                            <a id="hero-button-1" href="https://github.com/themesberg/landwind" class="flex-1  items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">Try It Now</a>
+                            <a id="hero-button-1" href="https://github.com/themesberg/landwind" class="flex-1 items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-purple-900 bg-white bg-opacity-50 rounded-lg sm:w-auto hover:bg-opacity-70 focus:ring-4 focus:ring-purple-300 transition duration-300">Try It Now</a>
                         </div>
 
                         <div id="hero-button-2-container" class="flex">
-                            <a id="hero-button-2" href="https://www.figma.com/community/file/1125744163617429490" class="flex-1  items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn More</a>
+                            <a id="hero-button-2" href="https://www.figma.com/community/file/1125744163617429490" class="flex-1 items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white border border-white border-opacity-50 rounded-lg sm:w-auto focus:outline-none hover:bg-white hover:bg-opacity-20 focus:ring-4 focus:ring-purple-300 transition duration-300">Learn More</a>
                         </div>
                     </div>
                     
                 </div>
                 <div id="hero-image-container" class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                    <img id="hero-image" src="./images/hero.png" alt="hero image">
+                    <img id="hero-image" src="./images/hero.png" alt="hero image" class="rounded-xl shadow-lg">
                 </div>
             </div>
         </section>            
