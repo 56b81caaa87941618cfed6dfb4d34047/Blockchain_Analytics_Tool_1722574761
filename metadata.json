@@ -4,5 +4,6 @@
     "project_description": "add an app to analyse new blockchain information",
     "creation_time": "2024-08-02 10:29:21.509498",
     "current_state": "The current state of the application has a navbar and a header",
-    "selected_starter_template_id": "landwind"
+    "selected_starter_template_id": "landwind",
+    "frontend_theme_prompt": "The image features a vibrant, surreal landscape with a dominant pink and purple color scheme, accented by dark silhouetted mountains and glowing celestial objects. The style is dreamlike and otherworldly, creating a striking contrast between the neon hues and deep shadows."
 }
